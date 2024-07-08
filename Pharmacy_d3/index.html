@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="flex justify-between items-center px-2 lg:py-2 h-1/5 lg:text-xl">
+        <div>
+            <h1 class="text-2xl sm:max-lg:3xl lg:text-4xl font-semibold"><span class="text-sky-500">TECH</span>REMS</h1>
+        </div>
+        <nav id="navigations" class="absolute top-0 -left-full bg-sky-500 w-10/12 h-screen text-white">
+            <div class="navigations p-3">
+              <a href="">Home</a>
+            </div>
+            <div class="navigations">
+              <a href="">About</a>
+            </div>
+            <div class="navigations">
+              <a href="">Services</a>
+            </div>
+            <div class="navigations">
+              <a href="">Contact</a>
+            </div>
+            <div class="navigations">
+              <a href="">Sign up</a>
+            </div>
+            <div class="navigations border-b border-white">
+              <a href="">Sign in</a>
+            </div>
+        </nav>
+        <!--tablet/mobile navigations-->
+        <nav id="navigations" class="hidden sm:max-lg:block lg:block">
+          <div class="navs">
+            <a href="">Home</a>
+          </div>
+          <div class="navs">
+            <a href="">About</a>
+          </div>
+          <div class="navs">
+            <a href="">Services</a>
+          </div>
+          <div class="navs">
+            <a href="">Contact</a>
+          </div>
+          <div class="navs">
+            <a href="">Sign up</a>
+          </div>
+          <div class="navs">
+            <a href="">Sign in</a>
+          </div>
+      </nav>
+        <div class="sm:max-lg:hidden lg:hidden">
+          <i class="fa-solid fa-bars text-2xl text-sky-500" id="hamburger"></i>
+        </div>
+    </header>
+    <main class="lg:text-2xl">
+      <!--Home section-->
+        <section class="px-3 pt-28 pb-44 h-auto bg-sky-300 bg-hero bg-left-bottom bg-no-repeat sm:max-lg:h-svh sm:max-lg:bg-right-bottom sm:max-lg:pt-36 lg:h-svh lg:bg-right-bottom lg:bg-contain lg:pt-52">
+            <article class="text-2xl font-semibold text-white sm:max-lg:text-4xl lg:text-5xl">
+                <h1>Welcome to</h1>
+                <h1><span class="text-sky-500">Tech</span><span class="text-black">Rems</span> Homeopathic Clinic</h1>
+            </article>
+            <p  class="text-black">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio.
+            </p>
+            <div class="bg-sky-500 w-max text-white font-medium text-base rounded mt-3 lg:text-2xl lg:p-1">
+              <a href="" class="px-2 py-4">Book Appointment</a>
+            </div>
+        </section>
+        <!--About us-->
+        <section>
+            <h1 class="text-xl text-center font-semibold py-5 lg:text-3xl">About Us</h1>
+            <article class="px-2 flex justify-between overflow-x-scroll gap-4 text-white">
+              <div id="about_one" class="about_cards">
+                  <h1 class="text-lg text-center font-bold">Founder</h1>
+                  <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut eius tempore, possimus odit totam soluta dignissimos illo voluptas numquam ipsum officiis esse consequuntur quisquam, omnis veniam facilis distinctio minus, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit dolor you.</p>
+              </div>
+              <div id="about_two" class="about_cards">
+                  <h1 class="text-lg text-center font-bold">Pharmacy</h1>
+                  <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut eius tempore, possimus odit totam soluta dignissimos illo voluptas numquam ipsum officiis esse consequuntur quisquam, omnis veniam facilis distinctio minus, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit dolor you.</p>
+              </div>
+              <div id="about_three" class="about_cards">
+                  <h1 class="text-lg text-center font-bold">Laboratory</h1>
+                  <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut eius tempore, possimus odit totam soluta dignissimos illo voluptas numquam ipsum officiis esse consequuntur quisquam, omnis veniam facilis distinctio minus, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit dolor you.</p>
+              </div>
+              <div id="about_four" class=" about_cards">
+                  <h1 class="text-lg text-center font-bold">Emergency Ward</h1>
+                  <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut eius tempore, possimus odit totam soluta dignissimos illo voluptas numquam ipsum officiis esse consequuntur quisquam, omnis veniam facilis distinctio minus, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit dolor you.</p>
+              </div>
+            </article>
+        </section>
+      <!--Service section-->
+        <section class="px-2 py-5 bg-sky-100 lg:pb-9">
+          <h1 class="text-xl font-semibold text-center pb-5 lg:text-3xl">Services</h1>
+          <article class="flex flex-col gap-5 text-justify sm:max-lg:gap-7 lg:gap-10">
+              <div class="service_cards">
+                <figure class="service_cards_pic">
+                  <img src="images/b (1).jpg" class="object-fill rounded-s-xl">
+                </figure>
+                <div>
+                  <h1 class="text-center font-extrabold lg:font-bold">Clinicals</h1>
+                  <p class="pr-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="service_cards">
+                <figure class="service_cards_pic">
+                  <img src="images/b (2).jpg" class="object-fill rounded-s-xl">
+                </figure>
+                <div>
+                  <h1 class="text-center font-extrabold lg:font-bold">Surgery</h1>
+                  <p class="pr-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="service_cards">
+                <figure class="service_cards_pic">
+                  <img src="images/c.jpg" class="object-fill rounded-s-xl">
+                </figure>
+                <div>
+                  <h1 class="text-center font-extrabold lg:font-bold">Check-up</h1>
+                  <p class="pr-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+          </article>
+        </section>
+      <!--professionals section-->
+        <section>
+          <h1 class="text-xl font-semibold text-center py-5 lg:text-3xl">Professionals</h1>
+          <article class="flex flex-col gap-5 pb-8 sm:max-lg:flex-row sm:max-lg:m-auto sm:max-lg:w-11/12 lg:flex-row lg:w-11/12 lg:m-auto">
+            <div class="professionals_cards">
+              <div>
+                <figure >
+                    <img src="images/blackdoc.jpg" class="h-32 rounded-full">
+                </figure>
+              </div> 
+              <div class="text-base text-center lg:text-2xl">
+                <h1 class="font-bold">Lorem, ipsum dolor.</h1>
+                <h1 class="font-semibold">Lorem, ipsum.</h1>
+              </div>
+              <div class="flex items-center gap-3 mt-2">
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-facebook-f m-auto"></i>
+                  </div>
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </div>
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="professionals_cards">
+              <div>
+                <figure >
+                    <img src="images/fdoc.jpg" class="h-32 rounded-full">
+                </figure>
+              </div> 
+              <div class="text-base text-center lg:text-xl">
+                <h1 class="font-bold">Lorem, ipsum dolor.</h1>
+                <h1 class="font-semibold">Lorem, ipsum.</h1>
+              </div>
+              <div class="flex items-center gap-3 mt-2">
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-facebook-f m-auto"></i>
+                  </div>
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </div>
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="professionals_cards">
+              <div>
+                <figure >
+                    <img src="images/h1.jpg" class="h-32 rounded-full">
+                </figure>
+              </div> 
+              <div class="text-base text-center lg:text-2xl">
+                <h1 class="font-bold">Lorem, ipsum dolor.</h1>
+                <h1 class="font-semibold">Lorem, ipsum.</h1>
+              </div>
+              <div class="flex items-center gap-3 mt-2">
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-facebook-f m-auto"></i>
+                  </div>
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </div>
+                  <div class="professionals_icons">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+              </div>
+            </div>
+          </article>
+        </section>
+    </main>
+    <!--Footer section-->
+    <footer class="bg-sky-200 pt-8 lg:text-2xl">
+        <div class="flex flex-col gap-5 border-b-2 border-white px-8 pb-8">
+          <h1 class="text-center">Social Media</h1>
+          <div class="w-max m-auto flex justify-between gap-3">
+            <i class="fa-brands fa-facebook-f footer_icons"></i>
+            <i class="fa-brands fa-x-twitter footer_icons"></i>
+            <i class="fa-brands fa-linkedin-in footer_icons"></i>
+            <i class="fa-brands fa-youtube footer_icons"></i>
+            <i class="fa-brands fa-instagram footer_icons"></i>
+          </div>
+          <p class="text-center">Get exclusive health tips sent straight to your inbox</p>
+          <div class="bg-sky-500 w-max mx-auto text-white font-medium text-base rounded p-4">
+            <a href="">Sign up</a>
+          </div>
+        </div>
+        <select class="w-max m-auto block text-sky-500 font-medium text-base rounded py-2 px-3 mt-8 border-2 border-sky-500 bg-transparent outline-none">
+            <option>English</option>
+            <option>French</option>
+            <option>Arabic</option>
+            <option>Spanish</option>
+        </select>
+        <p class="text-center font-semibold py-8">copyright &copy; 2024 <span>Tech</span>Rems company <br> All rights reserved</p>
+    </footer>
+    <div id="advert" class=" hidden sm:max-xl:block sm:max-xl:h-56 sm:max-xl:w-3/5 sm:max-xl:bg-sky-500 sm:max-xl:fixed sm:max-xl:top-52 sm:max-xl:left-14 sm:max-xl:p-2 sm:max-xl:rounded-xl">
+      <h1 id="cancel" class="text-xl font-bold text-white float-right">CANCEL</h1>
+      <p class="text-center text-2xl pt-16 font-semibold">WELCOME TO TECHREMS CHANNEL</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

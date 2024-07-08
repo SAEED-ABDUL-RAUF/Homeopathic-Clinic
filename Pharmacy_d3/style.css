@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .navigations:not(:first-child) {
+    @apply p-3 border-t border-white;
+  }
+
+  .navs{
+    @apply float-left block p-2 text-sky-500 lg:hover:bg-sky-200 rounded-lg duration-500 lg:hover:duration-500;
+  }
+  
+  .about_cards {
+      @apply mb-8 p-4 shadow-md bg-sky-100 min-w-64 rounded-xl  bg-no-repeat bg-cover cursor-pointer lg:min-w-96;
+  }
+
+  .service_cards {
+    @apply flex gap-5 items-center shadow-md bg-white rounded-xl cursor-pointer sm:max-lg:m-auto sm:max-lg:w-11/12 lg:w-11/12 lg:m-auto;
+  }
+
+  .professionals_cards {
+    @apply mx-2 p-3 flex flex-col items-center border border-sky-500 rounded-2xl cursor-pointer sm:max-lg:w-1/3 lg:w-1/3;
+  }
+
+  .professionals_icons i{
+    @apply bg-sky-200 p-2 h-auto w-8 lg:w-12 rounded-full lg:p-3;
+  }
+
+  .service_cards_pic{
+    @apply w-96 h-auto;
+  }
+
+  footer i{
+    @apply text-xl;
+  }
+
+  option{
+    @apply font-semibold;
+  }
